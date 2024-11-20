@@ -7,4 +7,4 @@ COPY kuber-hello-world-app/target/kuber-hello-world-app-1.0-SNAPSHOT.jar $APP_DI
 
 EXPOSE 8090
 
-ENTRYPOINT ["java", "-jar", "/usr/quiz-cookie-generator/quiz-cookie-generator-app-1.0.0.jar"]
+ENTRYPOINT ["java", "-jar", "/usr/kuber-hello-world/kuber-hello-world-app-1.0-SNAPSHOT.jar"]
